@@ -27,6 +27,7 @@ public class FloatUI : MonoBehaviour
 
     private void Start()
     {
+        slider.value = data.value;
         slider.onValueChanged.AddListener(UpdateValue);
     }
 
